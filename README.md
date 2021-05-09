@@ -57,3 +57,15 @@ sample json sturcture
 
 
 ## Message Queue
+
+URL to launch ActiveMQ
+
+http://localhost:8161/admin/
+
+Credentials : admin/admin
+
+To view the msaages in queue select the Queues tab and then select "BookCatalouge"
+
+![image](https://user-images.githubusercontent.com/83500042/117561097-0ef00400-b0d7-11eb-9fa9-a9a41dfd4d8c.png)
+
+
