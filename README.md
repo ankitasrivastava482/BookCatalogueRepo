@@ -22,19 +22,19 @@ or by using mvn spring-boot:run on command prompt
 
 ## API Endpoints
 
-To get all the books
+**To get all the books**
 
 http://localhost:8080/books
 
-To search book by title and author
+**To search book by title and author**
 
 http://localhost:8080/SearchByTitleAuthor/{title}/{author}
 
-To search book by ISBN
+**To search book by ISBN**
 
 http://localhost:8080/SearchByTitleAuthor/{isbn}
 
-To add a book
+**To add a book**
 
 http://localhost:8080/addbook
 
@@ -42,11 +42,11 @@ sample json structure
 
 {"isbn": "9780596009205","title": "Head First Java","author": ["Kathy Sierra","Bert Bates"],"publicationDate": "2017-12-27"}
 
-To delete a book 
+**To delete a book**
 
 http://localhost:8080/deletebook/{isbn}
 
-To update a book 
+**To update a book**
 
 http://localhost:8080/updatebook
 
